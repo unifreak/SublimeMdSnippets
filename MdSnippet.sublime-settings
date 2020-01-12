@@ -1,4 +1,5 @@
 {
+    "debug": false,
     "lang_alias": {
         "js": "javascript",
         "py": "python",
