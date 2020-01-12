@@ -63,7 +63,7 @@ code
 ```
 </pre>
 
-你也可以 **指定语言别名** 如 <pre>\`\`js</pre>, 则生成如下:
+你也可以 **指定语言别名** 如 <code>``js</code>, 则生成如下:
 
 <pre>
 ```javascript

@@ -65,7 +65,7 @@ code
 ```
 </pre>
 
-You can also **specify language alias** like <pre>\`\`js</pre>, then it will be expand to
+You can also **specify language alias** like <code>``js</code>, then it will be expand to
 
 <pre>
 ```javascript
