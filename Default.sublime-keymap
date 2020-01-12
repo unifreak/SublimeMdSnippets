@@ -1,0 +1,75 @@
+[
+    {
+        "keys": [
+            "tab"
+        ],
+        "command": "expand_markdown_snippet",
+        "context": [
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true
+            },
+            {
+                "key": "preceding_text",
+                "operator": "regex_match",
+                "operand": "^ *(.*!\\[|.*\\[\\[|\\|+|``.*)"
+            },
+            {
+                "key": "following_text",
+                "operator": "regex_match",
+                "operand": "$| +|\\]*"
+            },
+            {
+                "key": "mdsnippet.expand"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "tab"
+        ],
+        "command": "add_table_column",
+        "context": [
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true
+            },
+            {
+                "key": "following_text",
+                "operator": "regex_match",
+                "operand": "\\|"
+            },
+            {
+                "key": "mdsnippet.add_table_column"
+            }
+        ]
+    },
+    {
+        "keys": [
+            "enter"
+        ],
+        "command": "handle_enter",
+        "context": [
+            {
+                "key": "has_next_field",
+                "operator": "equal",
+                "operand": true
+            },
+            {
+                "key": "selection_empty",
+                "operator": "equal",
+                "operand": true
+            },
+            {
+                "key": "following_text",
+                "operator": "regex_match",
+                "operand": "\\|"
+            },
+            {
+                "key": "mdsnippet.handle_enter"
+            }
+        ]
+    },
+]
