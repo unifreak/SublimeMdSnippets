@@ -2,11 +2,11 @@
 
 _中文请见 [这里](https://github.com/UniFreak/SublimeMdSnippets/blob/master/README.cn.md "中文 README")_
 
-We love the simplicity of markdown syntax, but there are few that are actually complex, like table, code block, and links...
+We love the simplicity of markdown syntax, but there are a few that are actually complex, like table, code block, and links...
 
 This plugin come to rescue
 
-Though obviously there are other markdown snippets plugins out there, but this plugin **try to stick with markdown flovered syntax**
+Though obviously there are other markdown snippets plugins out there, but this plugin **try to stick with markdown flavour syntax**
 
 ## Feature
 
@@ -45,7 +45,7 @@ Result in:
 
 ```
 
-More conviniently, **you can add table column and table row dynamically**:
+More conveniently, **you can add table column and table row dynamically**:
 - when cursor in last header cell, use <kbd>tab</kbd> to add column, use <kbd>enter</kbd> to move to table body
 - when cursor in last table body cell, use <kbd>enter</kbd> to add row, use <kbd>tab</kbd> to tab out the table snippet
 
