@@ -1,6 +1,6 @@
 # Stick with Markdown Snippets
 
-_中文请见 [这里](https://github.com/UniFreak/SublimeMdSnippet/blob/master/README.cn.md "中文 README")_
+_中文请见 [这里](https://github.com/UniFreak/SublimeMdSnippets/blob/master/README.cn.md "中文 README")_
 
 We love the simplicity of markdown syntax, but there are few that are actually complex, like table, code block, and links...
 
