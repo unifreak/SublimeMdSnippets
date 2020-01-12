@@ -1,7 +1,7 @@
 import sublime, sublime_plugin
 import re
 
-debug = 1
+debug = 0
 def log(line):
     if debug:
         print(line)
