@@ -135,8 +135,7 @@ class AddTableColumnCommand(sublime_plugin.TextCommand):
                 i +=  1
         new_snippet += '|${%s:content}|\n' % i
 
-        view.run_command('left_delete')
-        view.run_command('insert_snippet', {'contents': new_snippet})
+        insert_snippet(view, new_snippet)
 
 def add_table_row(view):
     log('--running add_table_row:')
@@ -153,7 +152,7 @@ def add_table_row(view):
     snippet += '|\n'
 
     view.run_command('move', {'by': 'characters', 'forward': True})
-    view.run_command('insert_snippet', {'contents': snippet})
+    insert_snippet(view, snippet)
 
 class HandleEnterCommand(sublime_plugin.TextCommand):
     def run(self, edit):
