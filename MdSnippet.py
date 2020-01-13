@@ -1,11 +1,13 @@
 import sublime, sublime_plugin
 import re
 
-settings = sublime.load_settings('MdSnippet.sublime-settings')
-user_settings = sublime.load_settings('Preferences.sublime-settings')
+
+settings = None
+def plugin_loaded():
+    globals()['settings'] = sublime.load_settings('MdSnippet.sublime-settings')
 
 def log(line):
-    if settings.get('debug', False):
+    if settings and settings.get('debug', False):
         print(line)
 
 log('----started mdsnippet----')
@@ -68,7 +70,7 @@ class ExpandMarkdownSnippetCommand(sublime_plugin.TextCommand):
             else:
                 view.run_command('insert_best_completion', {
                     'default': '\t',
-                    'exact': user_settings.get('tab_completion', True)
+                    'exact': view.settings().get('tab_completion', True)
                 })
 
 class TabExpander():
