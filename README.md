@@ -38,11 +38,10 @@ Trigger by: `|||`
 
 Result in:
 
-```markdown
+```
 |header|header|
 |------|------|
 |content|content|
-
 ```
 
 More conveniently, **you can add table column and table row dynamically**:
