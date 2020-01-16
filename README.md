@@ -51,7 +51,7 @@ More conveniently, **you can add table column and table row dynamically**:
 
 This gif will make things clear
 
-![table gif](https://github.com/UniFreak/SublimeMdSnippets/blob/master/shot.gif)
+![table gif](https://raw.githubusercontent.com/UniFreak/SublimeMdSnippets/master/shot.gif)
 
 ### Code Block
 

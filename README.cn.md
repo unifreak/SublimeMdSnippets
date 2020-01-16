@@ -49,7 +49,7 @@
 
 这个动图能讲的更明白:
 
-![table gif](https://github.com/UniFreak/SublimeMdSnippets/blob/master/shot.gif)
+![table gif](https://raw.githubusercontent.com/UniFreak/SublimeMdSnippets/master/shot.gif)
 
 ### 代码块儿
 
