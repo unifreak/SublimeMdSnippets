@@ -1,4 +1,4 @@
-# Markdown Syntax Snippets
+# Stick with Markdown Snippets
 
 我们都喜欢 markdown 简洁的语法, 不过的确有几个语法并非 "那么" 简洁, 比如表格, 代码块儿, 链接等...
 
@@ -43,6 +43,7 @@
 ```
 
 为了更方便使用, **你还可以动态的添加表格的列和行**:
+
 - 当光标处于最后一个表头单元格时, 使用 <kbd>tab</kbd> 添加新列, 使用 <kbd>enter</kbd> 移到表格体
 - 当光标处于最后一个表格体单元格时, 使用 <kbd>enter</kbd> 添加新行, 使用 <kbd>tab</kbd> 移出表格编辑
 

@@ -45,6 +45,7 @@ Result in:
 ```
 
 More conveniently, **you can add table column and table row dynamically**:
+
 - when cursor in last header cell, use <kbd>tab</kbd> to add column, use <kbd>enter</kbd> to move to table body
 - when cursor in last table body cell, use <kbd>enter</kbd> to add row, use <kbd>tab</kbd> to tab out the table snippet
 
