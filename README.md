@@ -32,6 +32,20 @@ Another way is to clone source from github:
 
 This plugin provide four snippet: table, code block, url link and image link. Just type in trigger then press <kbd>tab</kbd> to generate
 
+**NOTE**: After updating of `Markdown Editing`, I found that snippet trigger \`\`
+doesn't work anymore. To fix this, you can open its user's key binding setting and
+find these lines and comment out them:
+
+```
+{ "keys": ["`"], "command": "run_macro_file", "args": {"file": "Packages/MarkdownEditing/macros/Skip Closing Character.sublime-macro"}, "context":
+ [
+     { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+     { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true },
+     { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true }
+ ]
+},
+```
+
 ### Table
 
 Trigger by: `|||`
